@@ -18,4 +18,6 @@
     <string name="txv4">¿Ya tiene cuenta?</string>
     <string name="txv_login">Inicie sesión</string>
     <string name="btn_salir">Salir</string>
+    <string name="nombre_regis">Nombre:</string>
+    <string name="email_regis">Correo eletrónico:</string>
 </resources>

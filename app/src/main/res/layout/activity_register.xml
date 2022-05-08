@@ -33,45 +33,26 @@
         app:layout_constraintTop_toBottomOf="@+id/title2"
         app:layout_constraintVertical_bias="0.015" />
 
-    <TextView
-        android:id="@+id/txv_nombre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginRight="20dp"
-        android:hint="@string/txv_nombre"
-        android:textColorHint="#757575"
-        android:textSize="18sp"
-        android:paddingStart="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txv3"
-        app:layout_constraintVertical_bias="0.008"
-        tools:ignore="RtlSymmetry" />
-
     <EditText
         android:id="@+id/email2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="24dp"
         android:layout_marginRight="20dp"
         android:drawableStart="@drawable/ic_baseline_mail_24"
         android:drawablePadding="5dp"
         android:ems="10"
-        android:textSize="18sp"
         android:hint="@string/email2"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:textColorHint="#A1887F"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txv_nombre"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.049" />
 
     <EditText
         android:id="@+id/password2"
@@ -102,18 +83,19 @@
         android:layout_marginRight="20dp"
         android:drawableStart="@drawable/ic_baseline_lock_24"
         android:drawablePadding="5dp"
-        android:textSize="18sp"
         android:ems="10"
         android:hint="@string/password3"
         android:importantForAutofill="no"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColorHint="#78909C"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password2"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintVertical_bias="0.071"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btn_registrar"
@@ -127,7 +109,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password3"
-        app:layout_constraintVertical_bias="0.134" />
+        app:layout_constraintVertical_bias="0.134"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/txv4"
@@ -158,5 +141,23 @@
         app:layout_constraintStart_toEndOf="@+id/txv4"
         app:layout_constraintTop_toBottomOf="@+id/btn_registrar"
         tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txv_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="@string/txv_nombre"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv3"
+        app:layout_constraintVertical_bias="0.05"
+        android:importantForAutofill="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
