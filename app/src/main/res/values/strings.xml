@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ProyectoFinal_Supet</string>
+    <string name="welcome">Bienvenid@s a Supet!</string>
+    <string name="title">Supet</string>
+    <string name="txv1">Inicie sesión para continuar</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="olvidar">¿Se le olvidó la contraseña?</string>
+    <string name="login">Login</string>
+    <string name="txv2">¿No tiene cuenta?</string>
+    <string name="txv_registrar">Regístrese</string>
+    <string name="txv3">Complete los siguientes datos:</string>
+    <string name="txv_nombre">Nombre</string>
+    <string name="email2">Correo</string>
+    <string name="password2">Contraseña</string>
+    <string name="password3">Repita la contraseña</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="txv4">¿Ya tiene cuenta?</string>
+    <string name="txv_login">Inicie sesión</string>
+    <string name="btn_salir">Salir</string>
+</resources>
